@@ -12,16 +12,18 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <![if !supportTabStrip]>
 <link id="shLink" href="bps-kendaraan-2000-2018_files/sheet001.htm">
 <link id="shLink" href="bps-kendaraan-2000-2018_files/sheet002.htm">
+<link id="shLink" href="bps-kendaraan-2000-2018_files/sheet003.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=2;
+ var c_lTabs=3;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "table";
  c_rgszSh[1] = "Kendaraan";
+ c_rgszSh[2] = "VA&nbsp;Transport&nbsp;INDC";
 
 
 
@@ -306,8 +308,13 @@ function fnSetActiveSheet(iSh)
     <x:Name>Kendaraan</x:Name>
     <x:WorksheetSource HRef="bps-kendaraan-2000-2018_files/sheet002.htm"/>
    </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>VA Transport INDC</x:Name>
+    <x:WorksheetSource HRef="bps-kendaraan-2000-2018_files/sheet003.htm"/>
+   </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="bps-kendaraan-2000-2018_files/stylesheet.css"/>
+  <x:WindowIconic/>
   <x:WindowHeight>9495</x:WindowHeight>
   <x:WindowWidth>21570</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
